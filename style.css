@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+body{
+    background: url("bcg.png") ;
+    height: 100vh;
+    display:flex; 
+}
+.navbar .max-width{
+    position: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+  background: red;
+    font-family: 'Ubuntu', sans-serif;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .logo a{
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.navbar .logo a span{
+    color: blue;
+}
+.navbar .menu li{
+    list-style: none;
+    display: block;
+    float:right;
+}
+.navbar .menu li a{
+color: white;
+font-size: 18px;
+font-weight: 400;
+margin-left: 25px;
+transform: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+
+.home{
+    display: flex;
+    color: whitesmoke;
+    opacity: 90%;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 30px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    font-weight: 800;
+    color: red;
+}
